@@ -2,7 +2,7 @@
 
 **Live page:** https://mohammad-abbasi-sh.github.io/muse-invite-codes/
 
-Free Muse tokens with an invite code. New users can redeem one of these codes
+Free Muse tokens with an invite code. New users can redeem this code
 within the first 48 hours after joining Muse.
 
 ## Codes
@@ -10,7 +10,6 @@ within the first 48 hours after joining Muse.
 | Code | Note |
 |------|------|
 | **ZV55CE** | Try this one first |
-| **3UILU4** | Use it if the first one is used up |
 
 ## How to redeem
 
@@ -23,7 +22,6 @@ within the first 48 hours after joining Muse.
 - Each account can redeem **one code only** (`already_redeemed` after that).
 - Each code works **up to 30 times** (`used_up` after that) — per the
   [muse-protocol](https://github.com/duwqijlk/muse-protocol) research.
-  If the first code is used up, try the second one.
 - The exact reward is shown on the redemption screen; this page promises no
   specific number of tokens.
 - Seeing an Invite button does not mean the account can redeem a code —
