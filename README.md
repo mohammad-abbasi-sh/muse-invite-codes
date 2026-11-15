@@ -36,6 +36,12 @@ and invite-code redemption (OTP flow, session bootstrap, TOS acceptance,
 (`redeemed` / `already_redeemed` / `used_up` / `invalid`) come from its
 documentation. Credit to the author, duwqijlk.
 
+## Guide: signing up from Iran
+
+Stuck on the waitlist? Read the honest guide — what the region lock is,
+why no code skips it, and what people report trying (with caveats):
+[GUIDE.md](GUIDE.md) (English) · [GUIDE-fa.md](GUIDE-fa.md) (فارسی)
+
 ## فارسی
 
 صفحهٔ فارسی کامل با آموزش قدم‌به‌قدم و سؤالات متداول:
