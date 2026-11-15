@@ -22,7 +22,8 @@
 {"@type":"Question","name":"اگر کد دعوت کار نکرد چه کار کنم؟","acceptedAnswer":{"@type":"Answer","text":"اگر کد «used up» بود یعنی به سقف ۳۰ بار استفاده رسیده است. اگر «already redeemed» بود یعنی این حساب قبلاً یک کد وارد کرده و هر حساب فقط یک بار می‌تواند کد وارد کند. اگر «invalid» بود کد را دوباره با دقت تایپ کنید."}},
 {"@type":"Question","name":"هر کد دعوت Muse چند بار قابل استفاده است؟","acceptedAnswer":{"@type":"Answer","text":"بر اساس مستندات پروژهٔ muse-protocol، هر کد دعوت حداکثر ۳۰ بار قابل استفاده است. بعد از رسیدن به سقف، وضعیت کد used up می‌شود."}},
 {"@type":"Question","name":"muse-protocol چیست؟","acceptedAnswer":{"@type":"Answer","text":"muse-protocol یک پروژهٔ تحقیقاتی متن‌باز است که پروتکل HTTP ثبت‌نام و ورود کد دعوت در muse.ai را مستند کرده است؛ شامل مراحل ارسال کد تأیید، تکمیل ثبت‌نام، فعال‌سازی نشست و ورود کد دعوت. این صفحه از نتایج آن برای توضیح وضعیت‌های ورود کد استفاده می‌کند."}},
-{"@type":"Question","name":"آیا استفاده از کد دعوت رایگان است؟","acceptedAnswer":{"@type":"Answer","text":"بله. ورود کد دعوت هزینه‌ای ندارد و برای کاربر جدید توکن رایگان دارد. مقدار پاداش روی صفحهٔ ورود کد در حساب شما نمایش داده می‌شود."}}
+{"@type":"Question","name":"آیا استفاده از کد دعوت رایگان است؟","acceptedAnswer":{"@type":"Answer","text":"بله. ورود کد دعوت هزینه‌ای ندارد و برای کاربر جدید توکن رایگان دارد. مقدار پاداش روی صفحهٔ ورود کد در حساب شما نمایش داده می‌شود."}},
+{"@type":"Question","name":"آیا کد دعوت ویت‌لیست را رد می‌کند؟","acceptedAnswer":{"@type":"Answer","text":"نه. کد دعوت فقط بعد از فعال‌شدن حساب توکن می‌دهد و قفل منطقه‌ای را دور نمی‌زند. موس فعلاً فقط در آمریکا و کانادا عرضه شده و ویت‌لیست بر اساس کشور است، نه صف نوبتی؛ متا تاریخی برای کشورهای دیگر اعلام نکرده است."}}
 ]}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -134,6 +135,10 @@ a{color:var(--teal)}
       <p>در اپ موبایل فقط ۴۸ ساعت اول بعد از عضویت. بعد از آن گزینهٔ Redeem token ناپدید می‌شود. در وب هم ورود کد فقط برای حساب‌هایی که هنوز کد وارد نکرده‌اند در دسترس است.</p>
     </details>
     <details>
+      <summary>آیا کد دعوت ویت‌لیست را رد می‌کند؟</summary>
+      <p>نه. کد دعوت فقط بعد از فعال‌شدن حساب توکن می‌دهد و قفل منطقه‌ای را دور نمی‌زند. موس فعلاً فقط در آمریکا و کانادا عرضه شده و ویت‌لیست بر اساس کشور است، نه صف نوبتی — متا تاریخی برای کشورهای دیگر اعلام نکرده است. پس اگر حسابت هنوز فعال نشده، کد به دردت نمی‌خورد؛ اول باید حساب فعال شود.</p>
+    </details>
+    <details>
       <summary>آیا استفاده از کد دعوت رایگان است؟</summary>
       <p>بله، ورود کد هزینه‌ای ندارد و برای کاربر جدید توکن رایگان دارد.</p>
     </details>
@@ -143,6 +148,7 @@ a{color:var(--teal)}
     <h2>Muse Invite Codes (English)</h2>
     <p>New to Muse? Redeem one of these invite codes within your first 48 hours after joining and get free tokens:</p>
     <p>Use this invite code: <strong>ZV55CE</strong></p>
+    <p><strong>Note:</strong> An invite code does not skip the waitlist or the region lock — it only grants tokens to an already active account. Muse is officially available only in the US and Canada so far.</p>
     <p><strong>How to redeem:</strong> On mobile, go to Settings → Redeem token (available only during the first 48 hours after joining). On the web at muse.ai, go to Settings → General → Usage → Redeem invite code. Each account can redeem only once, and each code works up to 30 times (per the <a href="https://github.com/duwqijlk/muse-protocol" target="_blank" rel="noopener">muse-protocol</a> research). The exact reward is shown on the redemption screen.</p>
   </section>
 </main>
