@@ -64,6 +64,12 @@ details summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;alig
 details p{margin:10px 0 0;color:#334155;font-size:15px}
 .en{direction:ltr;text-align:left}
 .en h2::before{margin-inline-end:0;margin-inline-start:0;margin-right:10px}
+h3{font-size:18px;font-weight:700;margin:22px 0 8px}
+.warn{background:#fef2f2;border:1px solid #fecaca;border-radius:14px;padding:14px 18px;font-size:14px;margin-bottom:12px}
+.warn b{color:#991b1b}
+.guide ul,.guide ol{margin:0 0 12px;padding-inline-start:24px}
+.guide li{margin-bottom:8px}
+.guide code{direction:ltr;display:inline-block;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;background:#f1f5f9;padding:1px 8px;border-radius:6px}
 footer{background:var(--navy);color:#94a3b8;text-align:center;padding:28px 0;margin-top:36px;font-size:14px}
 footer a{color:#e2e8f0}
 a{color:var(--teal)}
@@ -136,12 +142,135 @@ a{color:var(--teal)}
     </details>
     <details>
       <summary>آیا کد دعوت ویت‌لیست را رد می‌کند؟</summary>
-      <p>نه. کد دعوت فقط بعد از فعال‌شدن حساب توکن می‌دهد و قفل منطقه‌ای را دور نمی‌زند. موس فعلاً فقط در آمریکا و کانادا عرضه شده و ویت‌لیست بر اساس کشور است، نه صف نوبتی — متا تاریخی برای کشورهای دیگر اعلام نکرده است. پس اگر حسابت هنوز فعال نشده، کد به دردت نمی‌خورد؛ اول باید حساب فعال شود. راهنمای کامل ثبت‌نام از ایران (فارسی و انگلیسی) را <a href="guide-fa.html">اینجا بخوان</a>.</p>
+      <p>نه. کد دعوت فقط بعد از فعال‌شدن حساب توکن می‌دهد و قفل منطقه‌ای را دور نمی‌زند. موس فعلاً فقط در آمریکا و کانادا عرضه شده و ویت‌لیست بر اساس کشور است، نه صف نوبتی — متا تاریخی برای کشورهای دیگر اعلام نکرده است. پس اگر حسابت هنوز فعال نشده، کد به دردت نمی‌خورد؛ اول باید حساب فعال شود. راهنمای کامل ثبت‌نام از ایران (فارسی و انگلیسی) را <a href="#guide-fa">اینجا بخوان</a>.</p>
     </details>
     <details>
       <summary>آیا استفاده از کد دعوت رایگان است؟</summary>
       <p>بله، ورود کد هزینه‌ای ندارد و برای کاربر جدید توکن رایگان دارد.</p>
     </details>
+  </section>
+
+
+  <section id="guide-fa" class="guide">
+    <h2>راهنمای ثبت‌نام Muse از ایران</h2>
+    <p>موس فعلاً فقط در آمریکا و کانادا عرضه شده است. هیچ کد دعوتی ویت‌لیست یا قفل منطقه‌ای را دور نمی‌زند. این راهنما وضعیت واقعی را می‌گوید، نه وعدهٔ میان‌بر.</p>
+    <h3>۱. وضعیت فعلی</h3>
+    <ul>
+      <li>موس ۸ سپتامبر ۲۰۲۶ در آمریکا و ۲۹ سپتامبر ۲۰۲۶ در کانادا عرضه شد.</li>
+      <li>متا هیچ کشور سومی را اعلام نکرده و هیچ تاریخی برای عرضهٔ جهانی منتشر نکرده است.</li>
+      <li>اگر از ایران وارد muse.ai شوید، یا پیام «در کشور شما در دسترس نیست» می‌بینید یا صفحهٔ ویت‌لیست.</li>
+    </ul>
+    <h3>۲. ویت‌لیست چطور کار می‌کند؟</h3>
+    <ul>
+      <li>ویت‌لیست <b>بر اساس کشور</b> است، نه صف نوبتی. یعنی شمارهٔ نوبت و زمان انتظار ندارد و عضویت در آن دسترسی زودتر نمی‌دهد.</li>
+      <li>بعد از عضویت، صفحه همچنان می‌گوید موس در کشور شما در دسترس نیست.</li>
+      <li>متا گفته وقتی در کشور شما عرضه شود خبرتان می‌کند — بدون تاریخ مشخص.</li>
+      <li>خیلی‌ها ماه‌ها در ویت‌لیست می‌مانند و فعال نمی‌شوند؛ این یعنی عرضهٔ کشورشان هنوز شروع نشده، نه اینکه نوبتشان نرسیده باشد.</li>
+    </ul>
+    <h3>۳. آیا کد دعوت ویت‌لیست را رد می‌کند؟</h3>
+    <p><b>نه.</b> کد دعوت فقط <b>بعد از فعال‌شدن حساب</b> توکن می‌دهد:</p>
+    <ul>
+      <li>ورود کد در تنظیمات حساب انجام می‌شود (موبایل: Settings ← Redeem token؛ وب: Settings ← General ← Usage ← Redeem invite code) — یعنی اول باید حساب فعال باشد.</li>
+      <li>کد، قفل منطقه‌ای را دور نمی‌زند و شما را از ویت‌لیست بیرون نمی‌آورد.</li>
+      <li>هر حساب فقط یک بار می‌تواند کد وارد کند و هر کد حداکثر ۳۰ بار قابل استفاده است (طبق مستندات پروژهٔ muse-protocol).</li>
+    </ul>
+    <p>کد دعوت این صفحه — <code>ZV55CE</code> — برای کسانی است که حسابشان فعال شده و می‌خواهند توکن رایگان بگیرند، نه برای رد کردن ویت‌لیست.</p>
+    <h3>۴. قفل منطقه‌ای چطور تشخیص داده می‌شود؟</h3>
+    <p>بر اساس مستندات پروژهٔ تحقیقاتی <a href="https://github.com/duwqijlk/muse-protocol" target="_blank" rel="noopener">muse-protocol</a>، سرور هنگام فعال‌سازی نشست، وضعیت منطقه را برمی‌گرداند:</p>
+    <ul>
+      <li>اگر <code>resolvedDestination</code> برابر <code>waitlist</code> یا <code>isGeoGated</code> برابر <code>true</code> باشد، یعنی منطقه محدود است: ثبت‌نام کامل می‌شود و حساب حفظ می‌شود، ولی دسترسی فعال نمی‌شود.</li>
+      <li>این بررسی سمت سرور است، نه فقط یک فیلتر سادهٔ آی‌پی — به همین دلیل نتیجهٔ روش‌های دور زدن برای همه یکسان نیست.</li>
+    </ul>
+    <h3>۵. چیزی که مردم گزارش کرده‌اند (بدون تضمین)</h3>
+    <p>این‌ها گزارش‌های پراکندهٔ کاربران و نویسندگان راهنماهاست، نه روش تأییدشده. هیچ‌کدام را از ایران آزمایش نکرده‌ام و هیچ‌کدام تضمینی نیست:</p>
+    <ul>
+      <li><b>وی‌پی‌ان آمریکا برای کل مراحل ثبت‌نام:</b> بعضی منابع می‌گویند کل ثبت‌نام باید از یک اتصال آمریکایی انجام شود. بعضی منابع دیگر می‌گویند قفل به <b>منطقهٔ حساب متا و منطقهٔ اپ‌استور</b> وصل است، نه آی‌پی — و در آن صورت وی‌پی‌ان در را باز نمی‌کند. این دو ادعا با هم در تناقض‌اند.</li>
+      <li><b>دسکتاپ ابری در آمریکا:</b> اجرای کل مراحل ثبت‌نام داخل یک کامپیوتر ابری که در منطقهٔ تحت پوشش است. همان ابهام بالا را دارد.</li>
+      <li><b>نود ژاپن:</b> مستندات muse-protocol اشاره می‌کند که با نود ژاپن، مرحلهٔ اتصال کارت لازم نیست. این فقط یک مشاهدهٔ ثبت‌شده در آن پروژه است.</li>
+    </ul>
+    <div class="warn"><b>هشدار:</b> استفاده از وی‌پی‌ان برای ثبت‌نام از کشوری که موس در آن عرضه نشده، ممکن است خلاف شرایط استفادهٔ متا باشد و متا می‌تواند حساب را محدود یا ببندد. هر روشی را با همین ریسک در نظر بگیرید.</div>
+    <h3>۶. مسیر رسمی (تنها راه مطمئن)</h3>
+    <ol>
+      <li>در muse.ai با حساب متا وارد شوید.</li>
+      <li>اگر صفحهٔ ویت‌لیست آمد، <b>Join waitlist</b> را بزنید.</li>
+      <li>منتظر عرضه در کشور خود بمانید. متا می‌گوید خبرتان می‌کند.</li>
+    </ol>
+    <p>یک نکتهٔ گزارش‌شده: بعضی منابع توصیه می‌کنند برای ثبت‌نام از ایمیلی استفاده کنید که به فیسبوک یا اینستاگرام شما وصل نیست، چون اتصال به حساب‌های متا می‌تواند ثبت‌نام را به منطقهٔ واقعی شما وصل کند.</p>
+    <h3>۷. هشدار کلاهبرداری</h3>
+    <ul>
+      <li>هیچ‌کس نمی‌تواند «دسترسی زودهنگام» بفروشد. کسی که پول می‌گیرد تا حسابتان را فعال کند، منطقهٔ حساب شما را نمی‌تواند عوض کند — این‌ها ریسک کلاهبرداری‌اند.</li>
+      <li>کد دعوت رایگان است. برای کد پول ندهید.</li>
+      <li>هر صفحه‌ای که تاریخ دقیق عرضه در ایران یا کشور دیگری می‌دهد، آن تاریخ را از خودش ساخته است؛ متا تاریخی اعلام نکرده.</li>
+    </ul>
+    <h3>۸. منابع</h3>
+    <ul>
+      <li>پروژهٔ تحقیقاتی پروتکل: <a href="https://github.com/duwqijlk/muse-protocol">github.com/duwqijlk/muse-protocol</a></li>
+      <li>صفحهٔ ویت‌لیست موس: <a href="https://metamuseai.site/muse/waitlist/">metamuseai.site/muse/waitlist</a></li>
+      <li>راهنمای ثبت‌نام و ویت‌لیست: <a href="https://upgpts.com/en/tutorials/muse/how-to-use-muse-ai">upgpts.com</a></li>
+      <li>بررسی وضعیت کشورها: <a href="https://www.toolvena.com/en/muse-ai-availability-checker/">toolvena.com</a></li>
+      <li>«دور زدن ویت‌لیست» (با هشدار شرایط استفاده): <a href="https://frostrank.com/muse-ai-waitlist-bypass">frostrank.com</a></li>
+    </ul>
+  </section>
+
+  <section id="guide-en" class="guide en">
+    <h2>How to Sign Up for Muse from Iran</h2>
+    <p>Muse is officially available only in the United States and Canada. No invite code skips the waitlist or the region lock. This guide states the real situation; it promises no shortcut.</p>
+    <h3>1. The current situation</h3>
+    <ul>
+      <li>Muse launched in the US on September 8, 2026 and in Canada on September 29, 2026.</li>
+      <li>Meta has announced no third country and no dates for a global rollout.</li>
+      <li>Signing in at muse.ai from Iran shows either "not available in your country" or the waitlist screen.</li>
+    </ul>
+    <h3>2. How the waitlist works</h3>
+    <ul>
+      <li>The waitlist is <b>per-country, not a queue</b>. There is no position and no wait time, and joining it does not unlock access early.</li>
+      <li>After joining, the screen still says Muse "isn't available in your country or region yet."</li>
+      <li>Meta says it will let you know when Muse becomes available to you — with no date attached.</li>
+      <li>Many people stay on the waitlist for months without activation. That means their country hasn't launched yet, not that their turn hasn't come.</li>
+    </ul>
+    <h3>3. Does an invite code skip the waitlist?</h3>
+    <p><b>No.</b> An invite code only grants tokens <b>after the account is active</b>:</p>
+    <ul>
+      <li>Redemption happens inside account settings (mobile: Settings → Redeem token; web: Settings → General → Usage → Redeem invite code) — so the account must be active first.</li>
+      <li>A code does not bypass the region lock and does not take you off the waitlist.</li>
+      <li>Each account can redeem only once, and each code works up to 30 times (per the <a href="https://github.com/duwqijlk/muse-protocol" target="_blank" rel="noopener">muse-protocol</a> research).</li>
+    </ul>
+    <p>The invite code on this page — <code>ZV55CE</code> — is for people whose accounts are already active and want free tokens, not for skipping the waitlist.</p>
+    <h3>4. How the region lock is decided</h3>
+    <p>According to the open-source research project <a href="https://github.com/duwqijlk/muse-protocol" target="_blank" rel="noopener">muse-protocol</a>, the server returns a geo status during session bootstrap:</p>
+    <ul>
+      <li>If <code>resolvedDestination</code> is <code>waitlist</code> or <code>isGeoGated</code> is <code>true</code>, the region is restricted: registration completes and the account is kept, but access is not activated.</li>
+      <li>This is a server-side check, not a simple IP filter — which is why workarounds give inconsistent results for different people.</li>
+    </ul>
+    <h3>5. What people report (no guarantees)</h3>
+    <p>These are scattered user and guide reports, not verified methods. I have not tested any of them from Iran, and none is guaranteed:</p>
+    <ul>
+      <li><b>US VPN for the whole signup:</b> some sources say the entire registration must run from a US connection. Other sources say the lock is tied to the <b>Meta account region and app-store region</b>, not the IP — in which case a VPN does not open the door. The two claims contradict each other.</li>
+      <li><b>US cloud desktop:</b> running the whole signup inside a cloud computer located in a supported region. Same uncertainty as above.</li>
+      <li><b>Japan node:</b> the muse-protocol notes mention that with a JP node, no card binding is required. That is one observation recorded in that project.</li>
+    </ul>
+    <div class="warn"><b>Warning:</b> using a VPN to sign up from a country where Muse hasn't launched may break Meta's terms of service, and Meta can limit or close accounts. Consider any workaround with that risk in mind.</div>
+    <h3>6. The official path (the only reliable one)</h3>
+    <ol>
+      <li>Sign in at muse.ai with a Meta account.</li>
+      <li>If the waitlist screen appears, tap <b>Join waitlist</b>.</li>
+      <li>Wait for the launch in your country. Meta says it will notify you.</li>
+    </ol>
+    <p>One reported tip: some sources recommend signing up with an email that is not linked to your Facebook or Instagram account, since linking to Meta accounts can tie the signup to your real region.</p>
+    <h3>7. Scam warning</h3>
+    <ul>
+      <li>Nobody can sell "early access." Anyone charging money to activate your account cannot change your account's region — treat them as a scam risk.</li>
+      <li>Invite codes are free. Don't pay for one.</li>
+      <li>Any page giving an exact launch date for Iran or any other country made that date up; Meta has announced none.</li>
+    </ul>
+    <h3>8. Sources</h3>
+    <ul>
+      <li>Protocol research project: <a href="https://github.com/duwqijlk/muse-protocol">github.com/duwqijlk/muse-protocol</a></li>
+      <li>Muse waitlist page: <a href="https://metamuseai.site/muse/waitlist/">metamuseai.site/muse/waitlist</a></li>
+      <li>Signup &amp; waitlist guide: <a href="https://upgpts.com/en/tutorials/muse/how-to-use-muse-ai">upgpts.com</a></li>
+      <li>Country-availability check: <a href="https://www.toolvena.com/en/muse-ai-availability-checker/">toolvena.com</a></li>
+      <li>"Bypassing the waitlist" (with a ToS warning): <a href="https://frostrank.com/muse-ai-waitlist-bypass">frostrank.com</a></li>
+    </ul>
   </section>
 
   <section id="en" class="en">
